@@ -5,9 +5,7 @@
 
 <!-- AUTO:BADGE -->
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Masters: 32](https://img.shields.io/badge/Masters-32-blue)](docs/SKILL_CATALOG.md)
-[![Sub--skills: 33](https://img.shields.io/badge/Sub--skills-33-blueviolet)](docs/SKILL_CATALOG.md)
-[![Foresight: 4 series](https://img.shields.io/badge/Foresight-4%20series-orange)](#7-%EB%AF%B8%EB%9E%98%ED%95%99-%EB%8F%84%EA%B5%AC--foresight-methodology)
+[![Skills: 66](https://img.shields.io/badge/Skills-66-blue)](docs/SKILL_CATALOG.md)
 [![Korean](https://img.shields.io/badge/언어-한국어%20%2B%20English-success)](#)
 <!-- /AUTO:BADGE -->
 
@@ -17,7 +15,7 @@
 
 **한국어**
 
-본 패키지는 미래학자 최윤식 박사의 저서 『미래준비학교 — 흔들림 없는 인생을 계획하는 5단계』(지식노마드, 2016)의 *모든 토대*를 Claude Code Skills로 구현한 *비전 코칭 도구 모음*입니다. **32개 마스터 스킬**(콘텐츠 26개 + 메타 인터뷰 1개 + 데이터 백본 1개 + 미래학 도구 4개) **+ 33개 INTERNAL sub-skill** (vision-foresight 4 마스터 산하·총 65 폴더)이 박사님이 직접 운영하는 미래준비학교의 *비전 발견·완수 흐름* + 박사님 미래학자 본업의 *Millennium Project Futures Research Methodology V3.0 학문적 골격*을 결합하여 작동합니다. 누구나 *자신의 비전을 발견하고 완수하는 인생*을 살도록 돕습니다.
+본 패키지는 미래학자 최윤식 박사의 저서 『미래준비학교 — 흔들림 없는 인생을 계획하는 5단계』(지식노마드, 2016)의 *모든 토대*를 Claude Code Skills로 구현한 *비전 코칭 도구 모음*입니다. **33개 마스터 스킬**(콘텐츠 27개 + 메타 인터뷰 1개 + 데이터 백본 1개 + 미래학 도구 4개) **+ 33개 INTERNAL sub-skill** (vision-foresight 4 마스터 산하·총 66 폴더)이 박사님이 직접 운영하는 미래준비학교의 *비전 발견·완수 흐름* + 박사님 미래학자 본업의 *Millennium Project Futures Research Methodology V3.0 학문적 골격*을 결합하여 작동합니다. 누구나 *자신의 비전을 발견하고 완수하는 인생*을 살도록 돕습니다.
 
 박사님 정의: **비전 = 가치 있는 시대적 소명**
 
@@ -28,7 +26,7 @@
 
 **English**
 
-This package implements *every framework* from Dr. Choi Yoon-Sik's book 『Future Preparation School: 5 Stages of Planning an Unshakable Life』(Knomad, 2016) as a collection of Claude Code Skills. **32 master skills** (26 content + 1 meta-interview + 1 data backbone + 4 foresight methodology) **+ 33 INTERNAL sub-skills** (under the 4 vision-foresight masters · 65 folders total) combine Dr. Choi's *vision discovery·fulfillment flow* with the academic backbone of *Millennium Project Futures Research Methodology V3.0* from his work as a futurist. Together they help anyone *discover and fulfill their vision*.
+This package implements *every framework* from Dr. Choi Yoon-Sik's book 『Future Preparation School: 5 Stages of Planning an Unshakable Life』(Knomad, 2016) as a collection of Claude Code Skills. **33 master skills** (27 content + 1 meta-interview + 1 data backbone + 4 foresight methodology) **+ 33 INTERNAL sub-skills** (under the 4 vision-foresight masters · 66 folders total) combine Dr. Choi's *vision discovery·fulfillment flow* with the academic backbone of *Millennium Project Futures Research Methodology V3.0* from his work as a futurist. Together they help anyone *discover and fulfill their vision*.
 
 Dr. Choi's definition: **Vision = A Valuable Calling of the Times**
 
@@ -69,7 +67,7 @@ git clone https://github.com/idoforgod/cys-claude-vision-coaching-skills.git
 - 첫 줄: 내 홈 폴더로 이동 (Mac은 `/Users/내이름`, Windows는 `C:\Users\내이름`)
 - 둘째 줄: 패키지를 GitHub에서 통째로 내려받기
 
-### 2단계 — Claude Code에 65개 폴더 자동 등록 (32 마스터 + 33 INTERNAL sub-skill)
+### 2단계 — Claude Code에 66개 폴더 자동 등록 (33 마스터 + 33 INTERNAL sub-skill)
 
 방금 만들어진 폴더로 들어가서 아래 한 덩어리를 통째로 복붙:
 
@@ -84,7 +82,7 @@ done
 
 - 첫 줄: 방금 내려받은 패키지 폴더로 이동
 - 둘째 줄: Claude Code 스킬 폴더가 없으면 만들기
-- `for ... done`: 65개 폴더(32 마스터 + 33 INTERNAL sub-skill)를 한꺼번에 등록 — `skills/*/` glob이 모든 폴더 자동 처리
+- `for ... done`: 66개 폴더(33 마스터 + 33 INTERNAL sub-skill)를 한꺼번에 등록 — `skills/*/` glob이 모든 폴더 자동 처리
 
 ### 3단계 — Claude Code 재시작 → 첫 스킬 실행
 
@@ -102,7 +100,7 @@ Claude Code를 **완전히 종료**(창 닫기가 아니라 앱 종료)한 뒤 �
 
 ★ **무엇을 선택해야 할지 모르시면** → `/vision-grill-with-docs <한 문장>` **← 마스터 진입로**
 
-본 스킬이 박사님 **32개 마스터 스킬**(vision 28 + vision-foresight 4)의 *마스터 진입 게이트*입니다. 한 문장으로 본인 상태를 말씀하시면 결정론 라우터가 자동으로 *맞춤 진입 스킬*로 안내합니다. 예시:
+본 스킬이 박사님 **33개 마스터 스킬**(vision 29 + vision-foresight 4)의 *마스터 진입 게이트*입니다. 한 문장으로 본인 상태를 말씀하시면 결정론 라우터가 자동으로 *맞춤 진입 스킬*로 안내합니다. 예시:
 
 ```bash
 /vision-grill-with-docs 처음입니다. 어디서부터 시작해야 할지 모르겠어요
@@ -228,7 +226,7 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 
 ---
 
-## 📚 32개 마스터 스킬 카탈로그 / 32 Master Skills Catalog
+## 📚 33개 마스터 스킬 카탈로그 / 33 Master Skills Catalog
 
 > 본 섹션이 *전체 카탈로그*입니다. 자동 생성 인덱스(짧은 표)는 [docs/SKILL_CATALOG.md](docs/SKILL_CATALOG.md)에도 동기화됩니다.
 > This section *is* the full catalog. A slim auto-generated index is also synced to [docs/SKILL_CATALOG.md](docs/SKILL_CATALOG.md).
@@ -236,18 +234,17 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 ### 📊 6대 카테고리 / Six Categories
 
 <!-- AUTO:CATEGORY_TABLE -->
-| # | 카테고리 / Category | 마스터 수 | 박사님 8단계 |
+| # | 카테고리 / Category | 스킬 수 | 박사님 8단계 |
 |---|------------------|--------|--------------|
 | 1 | **Vision Coding - 진단 (Diagnosis)** | 7 | 1단계 |
-| 2 | **박사님 책 토대 — 기축 도식 (Core Framework)** | 5 | 5·6·8단계 |
-| 3 | **박사님 책 토대 — 응용 도구 (Applied Toolkit)** | 7 | 2·3·4·7단계 |
-| 4 | **처방·실행 (Prescription)** | 7 | 5·7·8단계 |
+| 2 | **박사님 책 토대 — 척추 도식 (Spine)** | 5 | 5·6·8단계 |
+| 3 | **박사님 책 토대 — 살·근육 + 응용 (Flesh + Applied)** | 7 | 2·3·4·7단계 |
+| 4 | **처방·실행 (Prescription)** | 8 | 5·7·8단계 |
 | 5 | **메타 인터뷰 (Cross-stage) (Meta-Interview)** | 1 | 전 단계 |
 | 6 | **데이터 백본 (External API) (Data Backbone)** | 1 | 1·3·7단계 보조 |
-| 7 | **미래학 도구 (Foresight Methodology — Millennium FRM V3.0)** | 4 | 1·2·3·5·8단계 학문적 보강 |
-| | **마스터 합계** | **32** | |
-| + | INTERNAL sub-skill (vision-foresight 4 시리즈 산하) | 33 | (마스터에 종속) |
-| | **총 폴더** | **65** | |
+| | **합계** | **66** | |
+
+⚠ 미분류 스킬 37개: `vision-foresight-environmental-scanning`, `vision-foresight-environmental-scanning-issues-management`, `vision-foresight-environmental-scanning-quest-workshop`, `vision-foresight-environmental-scanning-report`, `vision-foresight-environmental-scanning-techniques`, `vision-foresight-environmental-scanning-weak-signal-template`, `vision-foresight-futures-wheel`, `vision-foresight-futures-wheel-basic-v1`, `vision-foresight-futures-wheel-categorical-binary-expansion`, `vision-foresight-futures-wheel-consequence-linker`, `vision-foresight-futures-wheel-deep-reasoning-engine`, `vision-foresight-futures-wheel-delphi-rounds`, `vision-foresight-futures-wheel-domain-v2`, `vision-foresight-futures-wheel-quality-control`, `vision-foresight-futures-wheel-scenario-forecast`, `vision-foresight-futures-wheel-temporal-v3`, `vision-foresight-scenarios`, `vision-foresight-scenarios-cone-of-plausibility`, `vision-foresight-scenarios-driving-forces-identification`, `vision-foresight-scenarios-focal-issue-definition`, `vision-foresight-scenarios-implications-synthesis`, `vision-foresight-scenarios-importance-uncertainty-ranking`, `vision-foresight-scenarios-internal-consistency-check`, `vision-foresight-scenarios-key-measures-events`, `vision-foresight-scenarios-leading-indicators`, `vision-foresight-scenarios-narrative-writing`, `vision-foresight-scenarios-policy-testing`, `vision-foresight-scenarios-projection-engine`, `vision-foresight-scenarios-scenario-logics-selection`, `vision-foresight-wild-cards`, `vision-foresight-wild-cards-assessment`, `vision-foresight-wild-cards-identification`, `vision-foresight-wild-cards-impact-index`, `vision-foresight-wild-cards-implications-synthesis`, `vision-foresight-wild-cards-monitoring`, `vision-foresight-wild-cards-options-action`, `vision-foresight-wild-cards-scenario-integration`
 <!-- /AUTO:CATEGORY_TABLE -->
 
 ### 📋 전체 스킬 인덱스 / Skill Index (auto-generated)
@@ -262,18 +259,19 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 | Diagnosis | `vision-readiness-visioncoding` | 1 | 사용자의 꿈 달성 준비도(Dream Readiness)를 20문항 자가 진단으로 평가하고 영어 축 막대 그래프로 시각화하는 비… |
 | Diagnosis | `vision-strong-visioncoding` | 1 | STRONG 직업흥미도 검사(Strong Interest Inventory®) 간이 시뮬레이션 스킬. Holland(1959,… |
 | Diagnosis | `vision-values-visioncoding` | 1·4 | 사용자의 MBTI 16유형·에니어그램 9유형·다중지능(Multiple Intelligences) 8지능 결과를 가치 단어(va… |
-| Core Framework | `vision-mission-frame` | 5 | 최윤식 박사 『미래준비학교』(2016)의 핵심 도식 비전 프레임(Mission Frame)을 단독 도구로 구현한 비전 코칭 스… |
-| Core Framework | `vision-statement-writer` | 6 | 최윤식 박사 『최윤식의 미래준비학교』(2016, 지식노마드, ISBN 9788993322972)의 Vision Statemen… |
-| Core Framework | `vision-eight-training-areas` | 8 | 최윤식 박사 『미래준비학교』(2016)의 비전 훈련 8대 영역을 그대로 구현한 미래인재 습관 훈련 코칭 스킬. 박사님 인용 "… |
-| Core Framework | `vision-five-stages` | 8 | 최윤식 박사 『미래준비학교』(2016)의 미래준비학교 비전 5단계를 그대로 구현한 통합 비전 코칭 스킬. 박사님 고유 5단계… |
-| Core Framework | `vision-smart-five-competence` | 8 | 최윤식 박사 『미래준비학교』(2016)의 SMART 미래인재 5역량 훈련을 그대로 구현한 비전 훈련 코칭 스킬. 박사님 고유… |
-| Applied Toolkit | `vision-four-futures` | 2 | 최윤식 박사 『미래준비학교』(2016, 지식노마드, ISBN 9788993322972)의 4가지 미래 가능성을 그대로 구현한… |
-| Applied Toolkit | `vision-futures-timeline-map` | 2 | 최윤식 박사 『미래준비학교』(2016)의 미래지도(Futures Timeline Map) 작성 도구를 그대로 구현한 비전 코칭… |
-| Applied Toolkit | `vision-personal-future-research` | 2 | 사용자의 Vision Coding 진단 7종 결과(CYS 비전 역량·MBTI·에니어그램·STRONG/RIASEC·다중지능·가치… |
-| Applied Toolkit | `vision-future-needs-prediction` | 3 | 미래 사회 변화로부터 발생할 잠재적 기회·위기·문제·필요·결핍을 현실적이고 분석적으로 예측·분해하는 미래필요 예측 전문가 스킬… |
-| Applied Toolkit | `vision-future-promise-five-criteria` | 3 | 최윤식 박사 『미래준비학교』(2016)의 미래 유망성 판단 5가지 기준을 그대로 구현한 비전 영역 평가 스킬. 박사님이 미래준… |
-| Applied Toolkit | `vision-three-realm-balance` | 4 | 최윤식 박사 『미래준비학교』(2016)의 비전 영역 3겹 다이어그램을 그대로 구현한 비전 건강도 점검 스킬. 박사님 책 다이어… |
-| Applied Toolkit | `vision-financial-3shields-3windows` | 7 | 최윤식 박사 『미래준비학교』(2016) + 『부의 정석』(2011)의 3개의 방패와 3개의 창 재정 전략 모델을 그대로 구현한… |
+| Spine | `vision-mission-frame` | 5 | 최윤식 박사 『미래준비학교』(2016)의 핵심 도식 비전 프레임(Mission Frame)을 단독 도구로 구현한 비전 코칭 스… |
+| Spine | `vision-statement-writer` | 6 | 최윤식 박사 『최윤식의 미래준비학교』(2016, 지식노마드, ISBN 9788993322972)의 Vision Statemen… |
+| Spine | `vision-eight-training-areas` | 8 | 최윤식 박사 『미래준비학교』(2016)의 비전 훈련 8대 영역을 그대로 구현한 미래인재 습관 훈련 코칭 스킬. 박사님 인용 "… |
+| Spine | `vision-five-stages` | 8 | 최윤식 박사 『미래준비학교』(2016)의 미래준비학교 비전 5단계를 그대로 구현한 통합 비전 코칭 스킬. 박사님 고유 5단계… |
+| Spine | `vision-smart-five-competence` | 8 | 최윤식 박사 『미래준비학교』(2016)의 SMART 미래인재 5역량 훈련을 그대로 구현한 비전 훈련 코칭 스킬. 박사님 고유… |
+| Flesh + Applied | `vision-four-futures` | 2 | 최윤식 박사 『미래준비학교』(2016, 지식노마드, ISBN 9788993322972)의 4가지 미래 가능성을 그대로 구현한… |
+| Flesh + Applied | `vision-futures-timeline-map` | 2 | 최윤식 박사 『미래준비학교』(2016)의 미래지도(Futures Timeline Map) 작성 도구를 그대로 구현한 비전 코칭… |
+| Flesh + Applied | `vision-personal-future-research` | 2 | 사용자의 Vision Coding 진단 7종 결과(CYS 비전 역량·MBTI·에니어그램·STRONG/RIASEC·다중지능·가치… |
+| Flesh + Applied | `vision-future-needs-prediction` | 3 | 미래 사회 변화로부터 발생할 잠재적 기회·위기·문제·필요·결핍을 현실적이고 분석적으로 예측·분해하는 미래필요 예측 전문가 스킬… |
+| Flesh + Applied | `vision-future-promise-five-criteria` | 3 | 최윤식 박사 『미래준비학교』(2016)의 미래 유망성 판단 5가지 기준을 그대로 구현한 비전 영역 평가 스킬. 박사님이 미래준… |
+| Flesh + Applied | `vision-three-realm-balance` | 4 | 최윤식 박사 『미래준비학교』(2016)의 비전 영역 3겹 다이어그램을 그대로 구현한 비전 건강도 점검 스킬. 박사님 책 다이어… |
+| Flesh + Applied | `vision-financial-3shields-3windows` | 7 | 최윤식 박사 『미래준비학교』(2016) + 『부의 정석』(2011)의 3개의 방패와 3개의 창 재정 전략 모델을 그대로 구현한… |
+| Prescription | `vision-church-youth-discipleship` | 5·6 | 교회 청년부·청소년부(중·고등부) 학생들이 세상의 비전 코칭만으로는 닿지 못하는 자리 — 말씀이 삶에 녹아 열매 맺는 정체성과… |
 | Prescription | `vision-clarity-coaching` | 5 | 비전이 막연하거나 막힌 사용자가 비전의 핵심을 한 문장으로 끄집어내도록 돕는 1:1 깊이 코칭 스킬. 소크라테스 산파술(mai… |
 | Prescription | `vision-career-recommendation` | 7 | 사용자의 가치 단어·관심사·심리검사 결과(에니어그램·MBTI·다중지능·STRONG/RIASEC) + 나이·학력을 종합하여 적합… |
 | Prescription | `vision-financial-coach` | 7 | Dave Ramsey(『The Total Money Makeover』·7 Baby Steps·스노우볼 방식)와 Suze Orm… |
@@ -281,12 +279,45 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 | Prescription | `vision-strategy-coach` | 7 | 사용자의 비전(Vision)을 구체적·단계별 행동(Action)으로 변환하는 통합 전략 코칭 스킬. 전략 계획·코칭 실무에서… |
 | Prescription | `vision-follow-through-habits` | 8 | 결심·계획이 습관·일상 시스템으로 정착하도록 설계하는 실행 지속력 코칭 스킬. BJ Fogg(Tiny Habits, 2019)… |
 | Prescription | `vision-progress-review` | 8 | 사용자의 비전·목표·행동 계획 진척을 주간·월간·분기·연간 4단위 정기 점검으로 추적·평가·재조정하는 진척 추적 스킬. 결정론… |
-| Meta-Interview | `vision-grill-with-docs` | — | 미래비전코칭의 모든 단계에서 사용자가 난관에 부딪히거나 생각이 정리되지 않을 때 호출하는 다목적 인터뷰 엔진 스킬. Matt… |
+| Meta-Interview | `vision-grill-with-docs` | — | vision 시리즈 마스터 진입 스킬 + 미래비전코칭의 모든 단계에서 사용자가 난관에 부딪히거나 생각이 정리되지 않을 때 호출… |
 | Data Backbone | `vision-school-major-info` | 1·3·7 | 한국 대학·학과·진로 정보(공공데이터포털 7개 API 통합)와 미국 직업 정보(ONET)를 결정론적으로 조회·매핑·진로 추천에… |
-| Foresight | `vision-foresight-environmental-scanning` | 1·3·8 | Gordon·Glenn FRM V3.0 02장 풀 구현 — STEEPS 6영역·약한 신호·이슈 매니지먼트·QUEST 워크숍 + 5 sub-skill |
-| Foresight | `vision-foresight-futures-wheel` | 2 | Glenn 1971 FRM V3.0 06장 풀 구현 — 1차→6차 결과 추적·STEEPS 192 노드·박사님 7 protocol + 9 sub-skill |
-| Foresight | `vision-foresight-wild-cards` | 2·3·8 | Petersen·Steinmüller FRM V3.0 10장 풀 구현 — Arlington Impact Index·박사님 책 ④ 뜻밖의 미래 + 7 sub-skill |
-| Foresight | `vision-foresight-scenarios` ★ | 2·5 | Glenn·TFG FRM V3.0 19장 풀 구현 (박사님 미래학자 본업 시그니처) — Schwartz GBN·Cone of Plausibility·9 methods + 12 sub-skill |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning` | — | "## TLDR — Theodore J. Gordon·Jerome C. Glenn (Millennium Project, Fut… |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning-issues-management` | — | "## TLDR — Renfro (1993) Issues Management 4단계 cycle 풀 구현 INTERNAL SUB… |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning-quest-workshop` | — | "## TLDR — Burt Nanus·Slaughter (1990) QUEST 4-phase 워크숍 풀 구현 INTERNAL… |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning-report` | — | "## TLDR — Gordon·Glenn (2009) Appendix B 양식 (Millennium Project Envir… |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning-techniques` | — | "## TLDR — Gordon·Glenn (2009) Section III의 6 정보 수집 기법 풀 구현 INTERNAL S… |
+| ⚠ Uncat. | `vision-foresight-environmental-scanning-weak-signal-template` | — | "## TLDR — Gordon·Glenn (2009) 02장의 10·13-field 템플릿 + weak signal 패턴 추… |
+| ⚠ Uncat. | `vision-foresight-futures-wheel` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-basic-v1` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-categorical-binary-expansion` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-consequence-linker` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-deep-reasoning-engine` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-delphi-rounds` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-domain-v2` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-quality-control` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-scenario-forecast` | — | | |
+| ⚠ Uncat. | `vision-foresight-futures-wheel-temporal-v3` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-cone-of-plausibility` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-driving-forces-identification` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-focal-issue-definition` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-implications-synthesis` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-importance-uncertainty-ranking` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-internal-consistency-check` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-key-measures-events` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-leading-indicators` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-narrative-writing` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-policy-testing` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-projection-engine` | — | | |
+| ⚠ Uncat. | `vision-foresight-scenarios-scenario-logics-selection` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-assessment` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-identification` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-impact-index` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-implications-synthesis` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-monitoring` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-options-action` | — | | |
+| ⚠ Uncat. | `vision-foresight-wild-cards-scenario-integration` | — | | |
 <!-- /AUTO:SKILL_INDEX -->
 
 ### 🔗 박사님 8단계 ↔ 스킬 흐름도 / 8-Stage Flow Diagram
@@ -426,7 +457,7 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 
 ### 🎯 사용자 유형별 *최소 패키지* / Minimal Package by User Type
 
-32개 마스터 전체를 다 쓸 필요는 없습니다. 본인 상황에 맞는 *최소 패키지*만 따라가도 박사님 비전 발견·완수 흐름이 작동합니다. 진행 중 막히면 언제든지 `/vision-grill-with-docs <주제>`로 메타 인터뷰를 호출하고, 학과·학교·직업 데이터가 필요하면 `/vision-school-major-info`로 한국·미국 데이터를 조회하세요. 미래 시나리오·환경 변화·뜻밖의 미래 등 미래학 도구가 필요하면 `vision-foresight-*` 4 시리즈가 자동 cross-call됩니다.
+33개 마스터 전체를 다 쓸 필요는 없습니다. 본인 상황에 맞는 *최소 패키지*만 따라가도 박사님 비전 발견·완수 흐름이 작동합니다. 진행 중 막히면 언제든지 `/vision-grill-with-docs <주제>`로 메타 인터뷰를 호출하고, 학과·학교·직업 데이터가 필요하면 `/vision-school-major-info`로 한국·미국 데이터를 조회하세요. 미래 시나리오·환경 변화·뜻밖의 미래 등 미래학 도구가 필요하면 `vision-foresight-*` 4 시리즈가 자동 cross-call됩니다.
 
 #### 🧑‍🎓 청년 (Young Adult) — 8단계 압축 패키지
 1. **1단계** — `vision-cys-competence-visioncoding`
@@ -458,7 +489,7 @@ Stage 5 *"가치 + 시대적 필요 + 내 능력" 종합 → 비전 출발점·�
 3. **7단계** — `vision-career-recommendation`
 
 #### ⛪ 교회 청년부 (Church Youth) — 1년 커리큘럼
-박사님 8단계 흐름 그대로 — 32개 마스터 + 33 sub-skill 전체 활용 (월 1회 셀모임 × 12회 = 8단계 + 종합 정리 + 비전 재생산). 셀원이 막힐 때마다 `/vision-grill-with-docs`로 1:1 grill 인터뷰, 학과·학교 정보가 필요하면 `/vision-school-major-info`, 미래 시나리오·환경 스캔이 필요하면 `vision-foresight-*` 시리즈.
+박사님 8단계 흐름 그대로 — 33개 마스터 + 33 sub-skill 전체 활용 (월 1회 셀모임 × 12회 = 8단계 + 종합 정리 + 비전 재생산). 셀원이 막힐 때마다 `/vision-grill-with-docs`로 1:1 grill 인터뷰, 학과·학교 정보가 필요하면 `/vision-school-major-info`, 미래 시나리오·환경 스캔이 필요하면 `vision-foresight-*` 시리즈.
 
 ---
 
@@ -940,11 +971,11 @@ cys-claude-vision-coaching-skills/
 │ ├── WORKFLOWS.md # 통합 워크플로우 (Phase 2)
 │ ├── GLOSSARY.md # 용어집 (Phase 3)
 │ └── CONTRIBUTING.md # 기여 가이드 (Phase 3)
-├── skills/ # 65 폴더 (32 마스터 + 33 INTERNAL sub-skill)
+├── skills/ # 66 폴더 (33 마스터 + 33 INTERNAL sub-skill)
 │ ├── vision-cys-competence-visioncoding/
 │ ├── vision-five-stages/
 │ ├── vision-mission-frame/
-│ ├── ... (vision 28 + vision-foresight 4 마스터 + sub-skill 33)
+│ ├── ... (vision 29 + vision-foresight 4 마스터 + sub-skill 33)
 │ └── vision-progress-review/
 └── examples/ # 시나리오 예시 (Phase 3)
 ```
@@ -975,9 +1006,9 @@ cys-claude-vision-coaching-skills/
 - 박사님 시그니처 도구 `vision-futures-timeline-map` 결함 0건 유지
 
 vision 시리즈 구조:
-- 사용자 직접 호출 가능 **마스터 32개** (vision 28 + vision-foresight 4)
+- 사용자 직접 호출 가능 **마스터 33개** (vision 29 + vision-foresight 4)
 - INTERNAL sub-skill 33개 (vision-foresight 4 마스터 산하)
-- 총 65 폴더 + 결정론 모듈·박사님 책 verbatim 인용·할루시네이션 차단 절대 원칙 보존
+- 총 66 폴더 + 결정론 모듈·박사님 책 verbatim 인용·할루시네이션 차단 절대 원칙 보존
 
 **2026-05-18 — vision-foresight 4 series integrated — Dr. Choi's futurist signature assets joined to vision pipeline with academic depth**
 
@@ -988,7 +1019,7 @@ Dr. Choi's signature assets (full implementation of *Millennium Project Futures 
 - **`vision-foresight-wild-cards`** — Arlington Impact Index·Dr. Choi's Book ④ Unexpected Future → **Stages 2·3 crisis & game-changer preparation**
 - **`vision-foresight-scenarios`** — Schwartz GBN·Cone of Plausibility·9 methods (Dr. Choi's futurist signature method) → **Stage 5 vision starting point·big picture academic integration**
 
-Stats: 37 folders cloned · 54,305 lines added · 510 lines sed-substituted · 3-persona cross-orchestration PASS · 1,097+ unit tests cumulative · 0 regression. 32 user-callable masters (28 vision + 4 vision-foresight) + 33 INTERNAL sub-skills.
+Stats: 37 folders cloned · 54,305 lines added · 510 lines sed-substituted · 3-persona cross-orchestration PASS · 1,097+ unit tests cumulative · 0 regression. 33 user-callable masters (29 vision + 4 vision-foresight) + 33 INTERNAL sub-skills.
 
 **2026-05-18 — `vision-grill-with-docs`를 vision 시리즈 *마스터 진입 스킬*로 공식 지정 (E안)**
 - 박사님 결정: 마스터 진입 허브 신설(vision-start 안) 폐기 → `vision-grill-with-docs`가 이미 cross-stage 메타 인터뷰 엔진으로서 마스터 진입 자격을 갖췄음이 확인됨
